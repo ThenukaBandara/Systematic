@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+*{ margin: 0; padding: 0; }
+
+a { text-decoration: none; color: red;}
+
+p { margin-bottom: 20px; margin-top:10px; font-size: 18px; }
+
+.clearfix { overflow: auto }
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar {
+	width: 1000px;
+	background: maroon;
+}
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border: none;
+}
+
+.top-bar-links ul li a {
+	color: white;
+}
+
+.site-search {
+	width: 500px;
+	padding: 3px 5px 3px 10px;
+	margin: 15px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+}
+
+.site-search input {
+	border: 0;
+	float: left;
+}
+
+.site-search button {
+	width: 18px;
+	height: 18px;
+	background: url(../img/icons/search.png);
+	border: 0;
+	float: right;
+}
+
+header .logo {
+	margin: 30px 0 0 20px;
+	float: left;
+}
+
+header .logo h1 {
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+header .socialmedia {
+	margin: 50px 20px 0 0;
+	float: right;
+	margin-top: 30px;
+	
+}
+
+header .socialmedia ul {
+	list-style:none
+}
+
+header .socialmedia ul li {
+	display: inline;
+}
+
+header .socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+header .socialmedia ul li a:hover {
+	background: orange;
+}
+
+nav {
+	margin-top: 20px;
+	background: #000;
+	background: linear-gradient(#111, #444, #111);
+	text-align: center;
+	border-radius: 5px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 55px;
+	display: inline-block;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+.intro {
+	width: 970px;
+	margin: 15px;
+	margin-bottom: 0;
+}
+
+.intro .introimage {
+	width: 400px;
+	float: left;
+}
+
+.intro .introimage img {
+	float: left;
+}
+
+.intro .introtext {
+	width: 570px;
+	float: right;
+}
+
+.introtext h1 {
+	font-weight: normal;
+	margin-top: 100px;
+	font-size: 72px;
+	text-transform: uppercase;
+}
+
+.introtext p {
+	font-size: 18px;
+}
+
+.introtext a {
+	text-transform: uppercase;
+	float: right;
+}
+
+.homecontent {
+	width: 1000px;
+	background: #eee;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.home-col {
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+}
+
+.home-col h2{
+	margin: 30px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.home-col img {
+	width: 313.33px;
+}
+
+.home-col p {
+	text-align: justify;
+}
+
+.home-col a {
+	float: right;
+}
+
+.services {
+	margin-bottom: 34px;
+}
+
+.services img {
+	width: 64px;
+	float: left;
+	margin-right: 15px;
+}
+
+.services p {
+	margin: 0;
+}
+
+.quote {
+	float: left;
+}
+
+.quote i {
+	float: left;
+}
+
+.quote h3 {
+	float: left;
+	margin: 20px 0 0 15px;
+}
+
+.quote p {
+	clear: both;
+}
+
+.footer {
+	width: 1000px;
+	margin: 15px 0;
+	padding-bottom: 15px;
+	float: left;
+}
+
+.footercol {
+	margin-left: 15px;
+	width: 231.25px;
+	float: left;
+	border-top: 1px solid #000;
+
+}
+.footercol h4 {
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #444;
+}
+
+.tweet p {
+	font-size: 16px;
+}
+
+.quicklinks {
+	list-style: none;
+}
+
+.quicklinks li a {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	color: #666;
+}
+
+.quicklinks li a::before {
+	content: "»  ";
+}
+
+.quicklinks li a:hover {
+	color: red;
+}
+
+.blogpost h5 {
+	font-size: 20px;
+}
+
+.blogpost {
+	clear: both;
+}
+
+.blogpost p {
+	font-size: 16px;
+}
+
+.blogpost a.readmore {
+	float: right;
+}
+
+form.contact input ,form.contact textarea  {
+	background: #eee;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	width: 231.25px;
+	border: none;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+form.contact textarea {
+	height: 130px;
+}
+
+form.contact button {
+	background: #eee;
+	color: red;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+.copyrights {
+	width: 1000px;
+	background: #eee;
+	float: left;
+}
+
+.left {
+	float: left;
+	margin: 20px;
+}
+
+.right {
+	float: right;
+	margin: 20px;
+}
